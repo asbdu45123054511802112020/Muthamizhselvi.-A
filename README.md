@@ -51,3 +51,18 @@
     </footer>
 </body>
 <
+// Simple JavaScript program to greet the user
+function greetUser() {
+  // Prompt the user to enter their name
+  let name = prompt("Please enter your name:");
+
+  // Display a greeting message
+  if (name) {
+    alert("Hello, " + name + "! Welcome to the JavaScript world!");
+  } else {
+    alert("Hello! Welcome to the JavaScript world!");
+  }
+}
+
+// Call the function to greet the user
+greetUser();
